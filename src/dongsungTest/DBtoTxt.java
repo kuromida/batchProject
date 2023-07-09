@@ -69,7 +69,7 @@ public class DBtoTxt {
 
 			Class.forName("com.ibm.as400.access.AS400JDBCDriver");
 			// 테스트 서버정보
-			String url = "jdbc:as400://210.181.***.**;libraries=TESTSERVER"; 
+			String url = "jdbc:as400://210.181.230.69;libraries=TESTSERVER"; 
 			conn = DriverManager.getConnection(url, "TEST", "TEST");
 			
 			
